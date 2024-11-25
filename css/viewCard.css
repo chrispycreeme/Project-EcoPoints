@@ -1,0 +1,35 @@
+body {
+    margin: 0 auto;
+    margin-left: 2em;
+    margin-right: 2em;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.card-main-viewer-infos {
+    height: 250px;
+    width: 350px;
+    background-color: #2994ff;
+    border-radius: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1.rfid-id {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.container-whole-page {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

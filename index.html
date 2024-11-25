@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project EcoPoints Development Production Site</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=eco" />
+</head>
+
+<body>
+    <div class="add-card-div-container" id="addCardPanel">
+        <div class="logo-container">
+            <p class="logo-sub">Project</p>
+            <h1 class="logo-main">EcoPoints</h1>
+            <span class="material-symbols-outlined" style="color: #007FFF; font-size: 70px;">
+                eco
+            </span>
+        </div>
+        <div class="add-card-container">
+            <h1 class="mascot">o(^▽^)o</h1>
+            <p class="reminder-text">Oh oh! Looks likes you haven’t added any EcoCards to monitor.</p>
+            <button class="add-card" id="addCardButton" type="button">+</button>
+            <p class="reminder-text"><b>Click the "+" to add an EcoCard</b></p>
+        </div>
+    </div>
+    <div class="enter-card-div-container" id="enterCardPanel">
+        <div class="logo-container">
+            <p class="logo-sub">Project</p>
+            <h1 class="logo-main">EcoPoints</h1>
+            <span class="material-symbols-outlined" style="color: #007FFF; font-size: 70px;">
+                eco
+            </span>
+            <h1 class="mascot">o(^▽^)o</h1>
+        </div>
+        <div class="enter-card-container">
+            <input type="text" class="card-input-field" id="cardInputField">
+            <button class="enter-card" id="enterCardButton" type="button">Enter Card</button>
+            <p id="errorMessage" style="color: red; display: none;">Invalid RFID</p>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/data_processor.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+body {
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.add-card-div-container,
+.enter-card-div-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 3em;
+}
+
+p.logo-sub,
+h1.logo-main {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+p.logo-sub {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+h1.logo-main {
+    font-weight: 900;
+    color: #007FFF;
+    font-size: 30px;
+}
+
+h1.mascot {
+    font-weight: 400;
+    font-size: 36px;
+    margin-top: 1em;
+}
+
+p.reminder-text {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 1em;
+}
+
+.add-card {
+    font-weight: 300;
+    background-color: #007FFF;
+    border: 0px;
+    outline: none;
+    color: white;
+    font-size: 35px;
+    padding: 3px 13px 3px 13px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 250ms ease-in-out;
+}
+
+.add-card:hover,
+.enter-card:hover {
+    background-color: #005F9E;
+}
+
+.enter-card-container {
+    margin-top: 3em;
+}
+
+.enter-card-div-container {
+    display: none;
+}
+
+.enter-card {
+    font-weight: 300;
+    background-color: #007FFF;
+    border: 0px;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    padding: 6px 40px 6px 40px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 250ms ease-in-out;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.card-input-field {
+    font-size: 15px;
+    padding: 15px 20px 15px 20px;
+    outline: none;
+    border: none;
+    border-bottom: #007FFF 2px solid;
+    width: 250px;
+    font-family: "Inter", sans-serif;
+    transition: 250ms ease-in-out;  
+}
+
+.card-input-field:focus {
+    background-color: #DCDCDC;
+}
+
